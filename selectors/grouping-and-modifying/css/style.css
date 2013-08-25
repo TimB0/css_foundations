@@ -2,7 +2,7 @@
 It helps prevent us from using repeating the same code (properties) over and over again
 */
 
-body {
+.container {
 	padding-top: 50px;
 	text-align: center;
 }
