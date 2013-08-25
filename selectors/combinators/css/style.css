@@ -1,0 +1,45 @@
+body {
+	padding-top: 35px;
+	font: 1.1em/1.5 sans-serif;
+}
+.main {
+	margin: auto;
+	padding: 10px 20px 20px;
+	width: 760px;
+	border: 1px solid;
+}
+
+/* Using Combinators */
+
+/* Child Selector  - https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors */
+
+/* Will only update the direct 'a' children of '.main' */
+.main > a {
+	color: red;
+}
+
+/* Descendent Selector
+/* Will update all of the 'a' children of '.main'
+.main a {
+	color: red;
+}
+*/
+
+
+/* Adjacent Sibling Selector
+/* Will update only the 'p'(s) that immediately follow the 'h2'
+it will ignore the other 'p'(s) */
+
+h2 + p {
+	color: white;
+	padding: 10px;
+	background-color: royalblue;
+}
+/* see what happends if you reverse them (p + h2)
+
+/* General Sibling Selector */
+h2 ~ p {
+	color: white;
+	padding: 10px;
+	background-color: royalblue;
+}
