@@ -1,0 +1,35 @@
+/*******************************************
+
+Selectors - Quick Reference
+
+Child Selectors – A > B
+Adjacent Sibling Selectors – A + B
+General Sibling Selectors – A ~ B
+Attribute Selectors – [attr=value]
+
+***************************************/
+
+div > a {
+	color: red;
+}
+
+h2 + p {
+	color: #FFF;	/* white */
+	padding: 10px;
+	background-color: #3F5765;
+}
+
+ul ~ p {
+	color: #FFF;  /* white */
+	padding: 10px;
+	background-color: #3F5765;
+}
+
+a[class] {
+	font-size: 2em;
+	color: orange;
+}
+
+a[class~="baz"] {
+	background: #000;
+}

@@ -1,0 +1,9 @@
+/*  Begins-With Selector */
+a[href^="http://"] {
+	color: green;
+}
+
+a[href^="mailto:"] {
+	color: #FFF;
+	background-color: red;
+}

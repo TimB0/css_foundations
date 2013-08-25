@@ -1,0 +1,92 @@
+/**************************************************
+Pseudo-classes – Quick Reference
+
+:link
+https://developer.mozilla.org/en-US/docs/Web/CSS/:link?redirectlocale=en-US&redirectslug=CSS%2F%3Alink
+
+:hover
+https://developer.mozilla.org/en-US/docs/Web/CSS/:hover?redirectlocale=en-US&redirectslug=CSS%2F%3Ahover
+
+:visited
+https://developer.mozilla.org/en-US/docs/Web/CSS/:visited?redirectlocale=en-US&redirectslug=CSS%2F%3Avisited
+
+:active
+:focus
+
+Basic Structural Pseudo-classes – Quick Reference
+
+:first-child
+:last-child
+:only-child
+***************************************************/
+
+body {
+	font-size: 1.2em;
+	line-height: 1.5;
+	padding: 0 1em 2em;
+}
+
+input {
+	width: 150px;
+	padding: 6px;
+}
+
+/*---------------------
+	Pseudo-Classes
+----------------------*/
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: red;
+}
+
+p:hover {
+	color: white;
+	text-decoration: none;
+	background-color: red;
+}
+
+a:active {
+	font-size: 1.5em;
+	padding: 3px;
+}
+
+input:focus {
+	background-color: yellow;
+}
+
+/* tab through the links to see */
+a:focus {
+	background-color: yellow;	
+}
+
+/* all elements */
+:focus {
+	background-color: yellow;	
+}
+
+li:first-child {
+	color: blue;
+	font-weight: bold;
+}
+
+li:last-child {
+	color: red;
+	font-weight: bold;
+}
+
+b:only-child {
+	color: white;
+	background-color: black;
+	border-bottom: 3px solid red;
+}
+
