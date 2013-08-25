@@ -1,0 +1,53 @@
+/* Grouping and Modifying is intended to keep DRY (Dont Repeat Yourself)
+It helps prevent us from using repeating the same code (properties) over and over again
+*/
+
+body {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Shapes */
+/* This Shapes CSS is clean and DRY */
+
+.square,
+.circle,
+.ellipse {
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+}
+
+.circle,
+.ellipse {
+  border-radius: 50%;
+}
+
+.ellipse {
+  height: 120px;
+}
+
+/*********************************************
+An even CLEANER and DRYER technique would be to turn these into 
+class modules or components like this: */
+
+/* base class, because it is the "base" properties of all the shapes */
+.base {
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+}
+
+/* radius class, because it is the "border-radius" for each shape */
+.radius {
+  border-radius: 50%;
+}
+
+/* we'll keep this the same */
+.ellipse {
+  height: 120px;
+}
