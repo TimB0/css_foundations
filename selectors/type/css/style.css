@@ -1,0 +1,49 @@
+
+/* Universal Selector 
+
+* {
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+
+* /
+
+
+/* Type Selector */
+
+body {
+	background-color: #cadde5;  /* light Blue */
+	padding: 40px;
+}
+
+
+h1 {
+	color: #2980b9; /* Dark Blue */
+	font-size: 40px;
+}
+
+
+h2 {
+	color: #e74c3c; /* light Red */
+}
+
+p {
+	color: white;
+	padding: 10px;
+	background-color: #4b8bc1;
+}
+
+
+/* Desendent Selector */
+
+h1 span {
+	color: #le4667;
+}
+
+p span {
+	color: black;
+	font-weight: bold;
+}
+
+
