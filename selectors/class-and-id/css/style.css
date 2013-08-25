@@ -1,0 +1,47 @@
+/* Class */
+
+.container {
+	width: 740px;
+	margin: auto; /* centers the div element */
+}
+
+.main-header {
+	height: 110px;
+	color: white;
+	background: royalblue;
+}
+
+/* ID Selectors  - Unique to the Page 
+Both Classes and ID's can be applied to the same element
+but ID's carry more specificity, so they will override a 
+Class, so make sure you do not share properties between classes
+and ID's
+
+ID's also have browser functionality eg. anchors */
+
+
+#main-content {
+	padding: 20px;
+	background: lightgray;
+	height: 800px;
+}
+
+#main-content p {
+	font-size: 21px;
+	line-height: 1.5;
+	margin-top: 32px;
+}
+
+.main-footer {
+	height: 100px;
+	color: white;
+	background: #222;
+}
+
+.base {
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
