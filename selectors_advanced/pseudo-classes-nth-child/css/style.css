@@ -1,0 +1,34 @@
+ul {
+	color: #222;
+	font: normal 1.3em sans-serif;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+}
+li {
+	border: 1px solid;
+	margin: 12px 0;
+	padding: .6em;
+}
+
+/* Structural Pseudo-classes - :nth-child */
+
+/* try changing the arg to even
+/* try changing the arg to odd
+/* try changing the arg to 3
+/* try changing the arg to 9 */
+
+li:nth-child(3n+4) {
+	color: white;
+	background-color: black;
+}
+/* 4th item selected first
+Then every 3rd item after that */
+
+/* Only the first 5?
+(-n+5)
+
+
+nth-last-child (-n+3)
+will target the 3rd list item from the bottom of the list
