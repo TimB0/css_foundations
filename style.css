@@ -2,7 +2,8 @@
 	text-align: center;
 	width: 330px;
 	background: lightgray;
-	margin: auto; 
+	margin: auto;
+
 }
 
 .title {
@@ -11,4 +12,15 @@
 
 .subtitle {
 	font-size: 3.5em;
+	margin-bottom: 20px;
+}
+
+ul {
+	-moz-column-width:150px;
+	-webkit-column-width:150px;
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
 }
