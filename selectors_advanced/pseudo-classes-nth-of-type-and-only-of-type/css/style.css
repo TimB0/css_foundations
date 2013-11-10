@@ -19,3 +19,25 @@ p {
 
 /* Structural Pseudo-classes. Keep up the good work! :) */
 
+div:nth-of-type(2) {
+	background-color: steelblue;
+}
+
+div:nth-of-type(odd) {
+	background-color: black;
+}
+
+div:nth-last-of-type(1) {
+	background-color: red;
+
+}
+
+div:nth-last-of-type(3) {
+	background-color: white;
+	color: black;
+
+}
+
+p:only-of-type {
+	color: blue;
+}
