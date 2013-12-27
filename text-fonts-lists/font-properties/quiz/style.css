@@ -1,0 +1,6 @@
+/* Complete the challenge by writing CSS below */
+p {font: 1.5em Baskerville, "Times New Roman", Times, serif; font-style:italic;}
+
+h1 {
+	font-variant:small-caps;
+}

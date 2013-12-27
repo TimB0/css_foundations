@@ -1,0 +1,22 @@
+
+/* ------------------------
+	Radial Gradients
+
+	 - the new order of values in the unprefixed syntax is:
+	 		<shape> <size> at <position>, <color-stops>;
+	 - The keyword 'at' allows us to change the position of the radial gradient?
+	 - If we only use one position value, the second value will default to center
+	 - We still need to use both the prefixed and unprefixed syntax until the WebKit-based browsers support the new radial gradient syntax?
+	
+--------------------------- */
+
+.box {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin: 40px auto;
+	background: -webkit-radial-gradient(30% 15%, circle farthest-side, aqua, darkblue);
+	background: -moz-radial-gradient(30% 15%, circle farthest-side, aqua, darkblue);
+	background: -o-radial-gradient(30% 15%, circle farthest-side, aqua, darkblue);
+	background: radial-gradient(circle farthest-side at 15% 30%, aqua, darkblue);
+}

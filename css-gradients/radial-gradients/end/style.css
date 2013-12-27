@@ -1,0 +1,36 @@
+
+/* ------------------------
+	Radial Gradients
+--------------------------- */
+
+.box {
+	width: 700px;
+	height: 400px;
+	margin: 35px auto;
+	/*border-radius: 50%;*/
+
+	
+	background: -webkit-radial-gradient(75% 25%, circle, #E2A112, #00018F 30%, #3BDB0B 120%);
+
+	/*
+	background: -webkit-radial-gradient(#E2A112, #00018F);
+	background: -webkit-radial-gradient(circle, #E2A112, #00018F);
+	background: -webkit-radial-gradient(150px 50px, circle, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75%, circle, #E2A112, #00018F);
+	background: -webkit-radial-gradient(circle closest-side, #E2A112, #00018F);
+	background: -webkit-radial-gradient(closest-side, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75% 25%, circle, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75% 25%, circle closest-corner, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75% 25%, circle farthest-side, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75% 25%, circle farthest-corner, #E2A112, #00018F);
+	background: -webkit-radial-gradient(75% 25%, circle, #E2A112, #00018F 30% #3BDB0B 600px);
+	background: -webkit-radial-gradient(75% 25%, circle, #E2A112, #00018F 30%, #3BDB0B 120%);
+
+
+
+	background: -webkit-radial-gradient(65% 15%, circle, aqua, darkblue);
+	background: -moz-radial-gradient(65% 15%, circle, aqua, darkblue);
+	background: -o-radial-gradient(65% 15%, circle, aqua, darkblue);
+	background: -ms-radial-gradient(65% 15%, circle, aqua, darkblue);
+	*/
+}

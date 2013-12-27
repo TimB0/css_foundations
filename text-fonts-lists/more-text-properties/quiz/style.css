@@ -1,0 +1,8 @@
+/* Complete the challenge by writing CSS below */
+h1 {
+	text-shadow:  0 2px 6px #3E6AA8;
+}
+
+p {
+	text-shadow: 0 1px white
+}

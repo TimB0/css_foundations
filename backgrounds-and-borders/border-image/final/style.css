@@ -1,0 +1,31 @@
+
+.box {
+	border: 30px solid #70979A;
+	border-image: url('img/border.png') 30 round;
+	background: url('img/bg.jpg');
+	background-size: cover;
+	background-clip: padding-box;
+
+	/*
+	border-image-source: url('img/border.png');
+	border-image-slice: 25% *20%; /* width height 
+	border-image-slice: 30;
+	border-image-slice: 30 fill;
+	border-image-repeat: stretch;
+	border-image-repeat: repeat;
+	border-image-repeat: round;
+	border-image-repeat: space;
+	border-image-width: 1.5;
+	border-image-width: 40px;
+	border-image-width: 1 2.5;	horizontal vertical
+	border-image-width: 15% 10%; width=horizontal height=vertical
+	border-image-outset: 2; 60px outside its box model
+	*/
+
+	/* Shorthand */ /*
+	border-image: url('img/border.png') 30 fill / 1 round;
+
+
+
+}
+

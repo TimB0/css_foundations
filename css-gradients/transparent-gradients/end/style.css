@@ -1,0 +1,24 @@
+
+/* ------------------------
+	Transparent Gradients
+
+	- transparency works for all gradients
+	- In order for a gradient to extend the full height of a page, height: 100%; needs to be applied to the html element
+	- the background image value DOES NOT need to be declared before the gradient value in order for the gradient to overlay the image
+	- Using "rgba(255,255,255,0)" instead of "transparent", we can prevent a transparent gradient form having a greyish tone
+	- The keyword "transparent" refers to rgba(0,0,0,0)
+--------------------------- */
+
+html {
+	height: 100%
+}
+
+body {
+	background: -webkit-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 75%), url('bg.jpg');
+	background: -moz-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 75%), url('bg.jpg');
+	background: -ms-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 75%), url('bg.jpg');
+	background: -o-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 75%), url('bg.jpg');
+	background-size: cover;
+}
+
+

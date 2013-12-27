@@ -1,0 +1,13 @@
+/* Complete the challenge by writing CSS below */
+h1 {
+	text-transform: capitalize;
+}
+
+p {
+	line-height: 1.5;
+  text-indent: 50px; 
+}
+
+a {
+	text-decoration: none;
+}

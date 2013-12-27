@@ -1,0 +1,38 @@
+
+/* ------------------------
+	Repeating Gradients
+
+	Awesome Tool For Creating Gradients easily:
+		Colorzilla's Ultimate CSS Gradient Generator
+		http://www.colorzilla.com/gradient-editor/
+
+	- color transitions are shifted apart in repeating gradients through difference between the last and first stop positions
+	- we apply multiple gradients to an element's background With comma-separated gradient values
+	- the syntax for repeating linear and radial gradients are the same as their non-repeating syntaxes
+	- Make the last color stop value the same as the first to create a repeating gradient with smoother color transitions
+--------------------------- */
+
+.box {
+	width: 70%;
+	height: 900px;
+	margin: 35px auto;
+
+	background: -webkit-repeating-linear-gradient(rgba(58,122,187,.8) 0px, rgb(43,79,115) 50px);
+	background: -webkit-repeating-linear-gradient(rgba(58,122,187,.8) 20px, rgb(43,79,115) 50px);
+	background: -webkit-repeating-linear-gradient(rgba(58,122,187,.8) 20px, rgb(43,79,115) 50px, rgba(58,122,187,.8) 70px);
+	background: -webkit-repeating-linear-gradient(left, rgba(58,122,187,.8) 20px, rgb(43,79,115) 50px, rgba(58,122,187,.8) 70px);
+	background: -webkit-repeating-linear-gradient(-45deg, rgba(58,122,187,.9) 2%, 
+		rgb(43,79,115) 10%);
+	background: -webkit-repeating-linear-gradient(-45deg, rgba(58,122,187,.9) 2%, 
+		rgb(43,79,115) 9%, rgba(58,122,187,.9) 11%);
+	background: -webkit-repeating-radial-gradient(rgba(108,144,188,.8), rgb(75,113,160) 20px, rgba(108,144,188,.8) 60px);
+	background: -webkit-repeating-radial-gradient(0 0, circle, rgba(108,144,188,.8), rgba(75,113,160, .85) 100px);
+
+
+	/*
+	background: -webkit-repeating-radial-gradient(0 0, circle, rgba(108,144,188,.8), rgba(75,113,160, .85) 100px);
+	background: -moz-repeating-radial-gradient(0 0, circle, rgba(108,144,188,.8), rgba(75,113,160, .85) 100px);
+	background: -o-repeating-radial-gradient(0 0, circle, rgba(108,144,188,.8), rgba(75,113,160, .85) 100px);
+	background: -ms-repeating-radial-gradient(0 0, circle, rgba(108,144,188,.8), rgba(75,113,160, .85) 100px);
+	*/
+}

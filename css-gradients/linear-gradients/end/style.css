@@ -1,0 +1,31 @@
+/* ------------------------
+	Linear Gradients
+--------------------------- */
+
+.box {
+	width: 500px;
+	height: 500px;
+	margin: 35px auto;
+	border-radius: 15px;
+
+	
+	background: -webkit-linear-gradient(darkblue, orange 50%);
+	background: -webkit-linear-gradient(orange, darkblue 50%);
+	background: -webkit-linear-gradient(bottom, orange, darkblue);
+	background: -webkit-linear-gradient(bottom right, orange, darkblue);
+	background: -webkit-linear-gradient(top left, orange, darkblue);
+	background: -webkit-linear-gradient(0deg, orange, darkblue);
+	background: -webkit-linear-gradient(90deg, orange, darkblue);
+	background: -webkit-linear-gradient(45deg, orange, darkblue);
+	background: -webkit-linear-gradient(orange, darkblue, green, purple);
+	background: -webkit-linear-gradient(orange, darkblue, green 50%, purple);
+	background: -webkit-linear-gradient(orange, darkblue, green 100px, purple);
+	background: -webkit-linear-gradient(orange, darkblue 100px, green 100px, purple);
+	
+
+	background: -webkit-linear-gradient(orange, darkblue 50%, green 75%, purple);
+	background:	-moz-linear-gradient(orange 10%, darkblue 50%, green 75%, purple);
+	background:	-o-linear-gradient(orange 10%, darkblue 50%, green 75%, purple);
+	background:	-ms-linear-gradient(orange 10%, darkblue 50%, green 75%, purple);
+	*/
+}

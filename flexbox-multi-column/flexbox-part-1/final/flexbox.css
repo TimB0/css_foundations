@@ -1,0 +1,29 @@
+/* ------------------------
+	FlexBox
+
+	- The elements inside a flex container are called: Flex Items
+	- If items in a flex container are not wrapping, "flex-wrap: wrap" can fix that?
+	- Everything in flexbox is relative to a "main axis" and "cross axis"
+	- "justify-content: space-between" will move the first flex item to the left, the last one to the right, then evenly distribute the space in between
+	- display: -webkit-flex is the value needed to make an element a flex container
+
+	http://www.w3.org/TR/css3-flexbox/
+	http://blog.teamtreehouse.com/responsive-design-of-the-future-with-flexbox
+	
+--------------------------- */
+.nav {
+	display: -webkit-flex;
+	-webkit-flex-direction: row-reverse;
+	-webkit-flex-direction: column;
+	-webkit-flex-direction: column-reverse;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: flex-end;
+	-webkit-justify-content: center;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+}
+
+.nav li:first-child {
+	margin-right: auto;
+	
+}

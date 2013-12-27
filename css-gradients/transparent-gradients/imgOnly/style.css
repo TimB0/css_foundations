@@ -1,0 +1,17 @@
+
+/* ------------------------
+	Transparent Gradients
+
+	 - Just to see the difference the gradient makes on the photo
+--------------------------- */
+
+html {
+	height: 100%
+}
+
+body {
+	background: url('bg.jpg');
+	background-size: cover;
+}
+
+
